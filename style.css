@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Hind', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+header{
+    padding: 20px 0px;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+header .menu{
+    
+}
+header .menu ul{
+    
+}
+header .menu ul li{
+    display: inline-block;
+}
+header .menu ul li a{
+    display: block;
+    padding: 10px 20px;
+    color: rgb(32, 30, 30);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+header .menu ul li a:hover{
+    color: #69AEFB;
+}
+
+header button{
+    background-image: linear-gradient(90deg,#a1ecff,#7dbcff);
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 110px;
+}
+header .h-btn a{
+    color: #fff;
+    font-weight: 400;
+}
+
+#hero{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    height: 80vh;
+}
+#hero .textarea{
+    margin-top: 220px;
+}
+#hero h1{
+    font-size: 45px;
+    color: #0F3E75;
+}
+#hero p{
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+#hero button{
+    background: #062639;
+    padding: 10px 100px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#hero button:hover{
+    background-color: #E56318;
+}
+
+#hero .img{
+    margin-top: 100px;
+}
+
+#course{
+    margin: 50px 0px;
+}
+#course .cbd{
+   
+}
+
+#course .chead h1{
+    text-align: center;
+    font-size: 45px;
+    color: #0F3E75;
+}
+#course .box{
+    border: 1px solid #ddd;
+    margin-left: 20px;
+    box-shadow: 1px 2px 5px 3px rgba(0, 0, 0, 0.3);
+}
+#course .box i{
+    color: gold;
+}
+#course .box h2{
+    color: #0F3E75;
+}
+#course .imgtext{
+    /* padding: 0px 10px; */
+}
+#course .imgtext h5{
+    margin-top: -25px;
+    margin-left: 30px;
+    font-size: 15px;
+    color: rgb(66, 65, 65);
+}
+
+#course .imgtext .s1{
+    background-color: blue;
+    padding: 0px 7px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+#course .imgtext .s2{
+    color: rgb(104, 98, 98);
+    padding: 0px 5px;
+}
+
+#course .imgtext .s3{
+    color: rgb(51, 50, 50);
+    
+}
+#course .imgtext .s3:hover{
+    color: blue;
+    
+}
+#course .imgtext .lasta{
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+#course .imgtext .allt{
+    padding: 0px 15px;
+}
+#course .imgtext .free{
+
+}
+#course .imgtext .free{
+    color: #4C5A7F;
+    font-size: 17px;
+    font-weight: 700;
+}
+#course .paid{
+    margin-left: 100px;
+    color: #3b38c2;
+    font-size: 17px;
+    font-weight: 600;
+}
+#course  .paid:hover{
+    color: blue;
+   
+}
+#course .box:hover{
+    background-color: #8EC5FC;
+}
+#course .cbd{
+    padding-top: 120px;
+}
+
+#blog{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#blog h1{
+    text-align: center;
+    font-size: 45px;
+    color: #0F3E75;
+}
+#blog .bimg{
+    padding-top: 100px;
+    margin-left: 80px;
+}
+
+
+#service .s-header h1{
+    text-align: center;
+    font-size: 55px;
+    color: #0F3E75;
+    padding-top: 100px;
+}
+
+
+#service .s-bg{
+    background: linear-gradient(#e66465, #9198e5);
+    padding: 50px 10px;
+}
+#service p{
+    color: #fff;
+    letter-spacing: 1px;
+}
+#service ul li{
+    margin-top: 10px;
+    list-style-type:square;
+    margin-left: 50px;
+    color: #E56318;
+    font-size: 17px;
+}
+#service ul li a{
+
+    color: #fff;
+}
+
+#service .s-img{
+    padding: 50px;
+}
+
+#about{
+    margin-top: 100px;
+}
+#about h1{
+    text-align: center;
+    font-size: 45px;
+    color: #0F3E75;
+    margin-bottom: 50px;
+}
+#about button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: #E56318;
+    margin: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+#contact {
+    margin-top: 100px;
+    background: #E98C16;
+    background: -webkit-linear-gradient(top left, #E98C16, #D8BAA2);
+    background: -moz-linear-gradient(top left, #E98C16, #D8BAA2);
+    background: linear-gradient(to bottom right, #E98C16, #D8BAA2);
+}
+#contact h1{
+    text-align: center;
+    font-size: 45px;
+    color: #0F3E75;
+    margin-bottom: 50px;
+}
+#contact .contxt{
+    padding-left: 20px;
+    color: #fff;
+}
+#contact input{
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+#contact .contxt h2{
+    font-size: 45px;
+}
+#contact .contxt .last{
+    height: 100px;
+}
+#contact button{
+    padding: 10px 100px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+#contact button:hover{
+    background-color: #7dbcff;
+}
+footer{
+    margin-top: 100px;
+
+}
+
+
+footer .footer-top .f1{
+    background-color: #042B42;
+    padding-top: 500px;
+    padding-left: 20px;
+}
+footer .f1 img{
+    margin-top: -50px;
+}
+footer button{
+    padding: 10px 60px;
+    background-color: #F29A3A;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 35px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+footer .f2-ex{
+    margin-top: -420px;
+}
+footer button:hover{
+    background-color: #000;
+}
+
+footer .footer-top .f2{
+    background-color: #03263A;
+    padding-top: 500px;
+
+}
+footer .fmiddle1{
+    margin-left: 30px;
+    margin-top: -450px;
+    color: #fff;
+    width: 300px;
+}
+footer .fmiddle1 a{
+    padding: 5px 0px;
+    display: block;
+    color: #fff;
+}
+footer .fmiddle2{
+    margin-left: 300px;
+    margin-top: -450px;
+    color: #fff;
+    width: 300px;
+}
+footer .fmiddle2 a{
+    padding: 5px 0px;
+    display: block;
+    color: #fff;
+}
+footer .f2 li{
+    list-style-type: square;
+    margin-left: 50px;
+    color: #E56318;
+}
+footer .f2 a:hover{
+    color: #E56318;
+}
+
+footer .f3{
+    background-color: #042B42;
+    padding-top: 500px;
+    padding-left: 20px;
+}
+footer .f3 .fmiddle3{
+    margin-top: -450px;
+    color: #fff;
+}
+footer .f3 a{
+    padding: 20px 10px;
+    color: #fff;
+}
+footer .f3 li{
+    list-style-type: square;
+    margin-left: 50px;
+    color: #E56318;
+    font-size: 17px;
+    margin-top: 10px;
+}
+footer .f3 a:hover{
+    color: #E56318;
+}
+
+footer .footer-name{
+    background: #031B28;
+    padding: 50px;
+    color: #fff;
+}
+footer .footer-name .para{
+    margin-top: -10px;
+    font-size: 18px;
+}
+footer .footer-name span{
+    color: #E56318;
+}
+
+
+footer .footer-name i{
+    color: #fff;
+    font-size: 20px;
+    
+    margin-top: -70px;
+    margin-left: 20px;
+}
+
+footer .linkf{
+    margin-left: 40px;
+}
+
+footer .linkf i:hover{
+    color: #40dd67;
+}
+
+
+
+
+
+
+/* form style */
+
+
+#myform{
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+    width: 100%;
+    height: 100vh;
+
+}
+#myform .bg{
+    background-color: #fff;
+    width: 500px;
+    height: 600px;
+    margin-left: 400px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+#myform .bg{
+    
+}
+#myform .bg h1{
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 40px;
+    color: rgb(68, 67, 67);
+}
+#myform .gap{
+    margin-left: 40px;
+}
+#myform input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ddd;
+    width: 400px;
+}
+#myform a{
+    margin-left: 280px;
+}
+#myform button{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    padding: 10px 150px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+    color: #fff;
+    font-size: 17px;
+}
+#myform p{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+#myform .link{
+    margin-left: 100px;
+}
+#myform .link i{
+    font-size: 35px;
+    padding: 30px 12px;
+    color: #0f6ce7;
+}
